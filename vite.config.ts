@@ -50,6 +50,7 @@ export default defineConfig({
         'vue-i18n',
         '@vueuse/head',
         '@vueuse/core',
+        'pinia',
         VueRouterAutoImports,
         {
           // add any other imports you were relying on
@@ -60,6 +61,7 @@ export default defineConfig({
       dirs: [
         'src/composables',
         'src/stores',
+        'src/api',
       ],
       vueTemplate: true,
     }),
