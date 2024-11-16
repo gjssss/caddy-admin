@@ -3,6 +3,13 @@ defineProps<{
   data: any
   title: any
 }>()
+const router = useRouter()
+
+function toCardDetail(name: string) {
+  router.push({
+    path: `/detail/${name}`,
+  })
+}
 </script>
 
 <template>
@@ -22,7 +29,7 @@ defineProps<{
     <template #footer>
       <div class="mt-1 flex gap-4">
         <PvButton label="Delete" severity="danger" outlined class="flex-1" />
-        <PvButton label="View" class="flex-1" />
+        <PvButton label="View" class="flex-1" @click="toCardDetail(title)" />
       </div>
     </template>
   </PvCard>

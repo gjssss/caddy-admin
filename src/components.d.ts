@@ -12,6 +12,7 @@ declare module 'vue' {
     HttpServerCard: typeof import('./components/appCard/httpServerCard.vue')['default']
     PvButton: typeof import('primevue/button')['default']
     PvCard: typeof import('primevue/card')['default']
+    PvDivider: typeof import('primevue/divider')['default']
     PvDrawer: typeof import('primevue/drawer')['default']
     PvTag: typeof import('primevue/tag')['default']
     README: typeof import('./components/README.md')['default']

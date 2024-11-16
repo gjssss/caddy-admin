@@ -11,6 +11,7 @@ import {
 
 export default defineConfig({
   shortcuts: [
+    ['text-dashed', 'w-fit b-b-1 b-dashed'],
   ],
   presets: [
     presetUno(),
