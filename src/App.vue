@@ -26,4 +26,5 @@ useHead({
 
 <template>
   <RouterView />
+  <ConfigShow />
 </template>
